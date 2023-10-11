@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/logIn&register.css">
+    <link rel="icon" type="image/x-icon" href="https://is2-ssl.mzstatic.com/image/thumb/Purple7/v4/9f/06/af/9f06af52-0fa6-cf87-f8d2-2ff69d50ab63/source/512x512bb.jpg">
+    <title>Managementsimple</title>
+</head>
+
+<body>
+    <video autoplay muted loop id="logInVideo">
+        <source src="images/LogIn-Register-Background.mp4" type="video/mp4">
+      </video>
+    <header>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </header>
+
+    <div class="wrapper disflex">
+        <div id="login-regis">
+            <div id="login-form">
+                <div>
+                    <label for="username">Username:</label>
+                    <input type="text" id="username">
+                    <label for="pass">Password:</label>
+                    <input type="password" id="pass">
+                    <input type="checkbox" value="lsRememberMe" id="rememberMe">
+                    <label>Remember me</label>
+                    <div class="buttonLogIn">
+                        <input type="submit" value="Sign Up" id="SignUp">
+                        <input type="submit" value="Login" id="login">
+                    </div>
+                </div>
+            </div>
+            <div id="register">
+                <div>
+                    <label for="regis-username">Username:</label>
+                    <input type="text" id="regis-username">
+                    <label for="regis-pass">Password:</label>
+                    <input type="password" id="regis-pass">
+                    <label for="passagain">Re-enter your pasword</label>
+                    <input type="password" id="passagain">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email">
+                    <label for="tel">Enter your phone number</label>
+                    <input type="number" id="tel">
+                    <div style="display: flex; justify-content: space-between;">
+                        <div>
+                            <input type="radio" name="HR" value="ManageEmployees" id="ManageEmployees">
+                            <label for="ManageEmployees">Manage Employees</label>
+
+                        </div>
+                        <div style="padding-right: 5px;">
+                            <input type="radio" name="HR" value="ManageStock" id="ManageStock">
+                            <label for="ManageStock">Manage Inventory</label>
+                        </div>
+                    </div>
+                    <div class="buttonLogIn">
+                        <input type="submit" value="Return" id="SignIn">
+                        <input type="submit" value="Sign Up" id="register2">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about-us">
+            <h2>Our Product</h2>
+            <h3>
+                <ul>
+                    <li>Employees management</li>
+                    <li>Inventory monitor</li>
+                </ul>
+                <br>
+                <br>
+                <button id="pauseButton" onclick="stopMotion()">Stop Motion</button>
+            </h3>
+
+        </div>
+
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+   <div class="bodyFooter">
+        <!-- HTML For Footer -->
+        <footer>
+            <div class="container">
+                <!-- Intro -->
+                <div class="contentFooter about">
+                    <h2>About</h2>
+                    <p>Two undergrads learning to develop an easy-to-use and simple Web App for desktop</p>
+                    <ul class="social-icon">
+                        <li><a href="https://www.instagram.com/dukemnguyen2302/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                    </ul>
+                    
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <div class="copyRight">
+                        <h3><em>Copyright © 2023 by ImmenseHorse</em></h3>
+                    </div>
+                </div>
+
+                <!-- Links -->
+                <div class="contentFooter links">
+                    <h2>Links</h2>
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/dukemnguyen/" target="_blank">LinkedIn</a></li>
+                        <li><a href="mailto:manhducams@gmail.com" target="_blank">Email</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contacts -->
+                <div class="contentFooter contact">
+                    <h2>Contact</h2>
+                    <ul class="info">
+                        <li>
+                            <span><i class="fa fa-map-marker"></i></span>
+                            <span>100 Voltarie Cres
+                                <br>Mississauga, ON
+                                <br>L5A 2A4
+                            </span>
+                        </li>
+                        <br>
+                        <li>
+                            <span><i class="fa fa-phone"></i></span>
+                            <p><a>647-425-4668</a></p>
+                        </li>
+                        <br>
+                        <li>
+                            <span><i class="fa fa-envelope"></i></span>
+                            <p><a>manhducams@gmail.com</a></p>
+                        </li>
+                
+                    </ul>
+                </div>
+
+            </div>
+
+        </footer>
+    </div>
+
+    <script src="js/controlMotion.js"></script>
+    <script src="js/ManageLogInData.js"></script>
+    <script src="js/FetchDesiredData.js"></script>
+    <script src="js/ShowDesiredUI.js"></script>
+
+
+</body>
+
+</html>

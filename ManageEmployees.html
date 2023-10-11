@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="icon" type="image/x-icon" href="https://th.bing.com/th/id/OIP.LI1J3aHmbOseWoFdhDStvgAAAA?pid=ImgDet&rs=1">
+    <title>Home</title>
+</head>
+
+<body class="theScreenNewStyle">
+
+    <div class="wrapper">
+        <br>
+        <br>
+        <br>
+        <br>
+        <h2>Manager View</h2>
+        <br>
+        <br>
+        <br>
+        <nav class="disflex-spacebetween">
+            <div>
+                <button onclick="location.replace('feedback.html')">Feedback</button>
+                <button onclick="location.replace('about.html')">About</button>
+                <button onclick="backFunction()">Log out</button>
+            </div>
+
+            <div style="display: flex; flex-wrap: nowrap; width: 350px;">
+                <input type="text" placeholder="Enter a name" id="textName1">
+                <input type="submit" value="Search" id="search1">
+                <input type="submit" value="Restore" id="restore1">
+            </div>
+        </nav>
+
+        <br>
+
+        <div id="ScreenForEmployees">
+            <div>
+                <div class="responsiveTab">
+                    <table class="manual">
+                        <thead>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Degree</th>
+                            <th>Age</th>
+                            <th>Gender</th>
+                            <th>Citizenship</th>
+                            <th>Salary</th>
+                            <th>Status</th>
+                            <th>Bonus</th>
+                            <th colspan="3">Adjust</th>
+                        </thead>
+                        <br>
+
+                        <tbody>
+                            <td><input id="idy" type="text"></td>
+                            <td><input id="name2" type="text"></td>
+                            <td><input id="degree" type="text"></td>
+                            <td><input id="age" type="text"></td>
+                            <td><input id="gender" type="text"></td>
+                            <td><input id="citizenship" type="text"></td>
+                            <td><input id="salary" type="text"></td>
+                            <td><input id="pStatus" type="text"></td>
+                            <td><input id="bonus" type="text"></td>
+
+                            <td><button id="add2">Add</button></td>
+                            <td><button id="myUpdate2">Update</button></td>
+                            <td><button id="clear2">Clear</button></td>
+                        </tbody>
+
+                    </table>
+
+                    <br>
+                    <br>
+
+                    <table class="tableDesign">
+                        <thead>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Degree</th>
+                            <th>Age</th>
+                            <th>Gender</th>
+                            <th>Citizenship</th>
+                            <th>Monthly Salary</th>
+                            <th>Promotion Status</th>
+                            <th>Bonus</th>
+                            <th colspan="2">Adjust</th>
+                        </thead>
+                        <tbody id="EmployeesBody">
+
+                        </tbody>
+                    </table>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="bodyFooter">
+        <!-- HTML For Footer -->
+        <footer>
+            <div class="container">
+                <!-- Intro -->
+                <div class="contentFooter about">
+                    <h2>About</h2>
+                    <p>Two undergrads learning to develop an easy-to-use and simple Web App for desktop</p>
+                    <ul class="social-icon">
+                        <li><a href="https://www.instagram.com/dukemnguyen2302/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+
+                <!-- Links -->
+                <div class="contentFooter links">
+                    <h2>Links</h2>
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/dukemnguyen/" target="_blank">LinkedIn</a></li>
+                        <li><a href="mailto:manhducams@gmail.com" target="_blank">Email</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contacts -->
+                <div class="contentFooter contact">
+                    <h2>Contact</h2>
+                    <ul class="info">
+                        <li>
+                            <span><i class="fa fa-map-marker"></i></span>
+                            <span>100 Voltarie Cres<br>Mississauga, ON L5A 2A4
+                            </span>
+                        </li>
+                        <li>
+                            <span><i class="fa fa-phone"></i></span>
+                            <p><a>647-425-4668</a></p>
+                        </li>
+                        <li>
+                            <span><i class="fa fa-envelope"></i></span>
+                            <p><a>manhducams@gmail.com</a></p>
+                        </li>
+                
+                    </ul>
+                </div>
+
+                <div class="contentFooter copyRight">
+                    <h3><em>Copyright © 2023 by ImmenseHorse</em></h3>
+                </div>
+
+            </div>
+
+        </footer>
+    </div>
+
+    <script src="js/FetchDesiredData.js"></script>
+    <script src="js/GeneralDisplayTable.js"></script>
+    <script src="js/DisplayEmployees.js"></script>
+
+</body>
+
+</html>
