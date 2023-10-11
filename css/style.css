@@ -1,0 +1,162 @@
+body.theScreenNewStyle {
+    font-family: "Open Sans", sans-serif;
+    background-image: url("https://wallpapercave.com/wp/wp7413024.jpg");
+}
+
+.disflex {
+    position: fixed;
+    min-width: 100%;
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.disflex-spacebetween {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper {
+    width: 960px;
+    margin: auto;
+}
+
+.wrapper h2 {
+    color: rgb(10, 5, 8);
+}
+
+#login-regis {
+    border-radius: 30px;
+    margin-left: 4cm;
+    padding: 20px 20px;
+    flex-basis: 360px;
+    height: auto;
+    margin-right: 15px;
+    background: #636067;
+}
+
+input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .1875rem;
+    box-sizing: border-box;
+    display: block;
+    font-size: .875rem;
+    margin: 5px auto;
+    padding: .275rem;
+    width: 95%;
+}
+
+input[type="checkbox"] {
+    -webkit-appearance: checkbox;
+    -moz-appearance: checkbox;
+    appearance: checkbox;
+    display: inline-block;
+    width: auto;
+    margin-left: 5px;
+}
+
+input[type="radio"] {
+    -webkit-appearance: radio;
+    -moz-appearance: radio;
+    appearance: radio;
+    display: inline-block;
+    width: auto;
+    margin-left: 5px;
+}
+
+input[type="password"] {
+    margin-bottom: .5rem;
+}
+
+input[type="submit"] {
+    margin-top: 1rem;
+    background-color: #10171d;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    width: 100px;
+}
+
+label {
+    color: #f9f4f4;
+    font-size: .875rem;
+}
+
+#login-form a {
+    float: right;
+    margin: 0px;
+    text-decoration: none;
+    padding: 0px;
+    margin-right: 2%;
+}
+
+.buttonLogIn {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 1rem;
+}
+
+h3 {
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+
+.about-us {
+    margin-top: 50px;
+    margin-right: 40px !important;
+    color: rgb(224, 240, 240);
+    flex-basis: 500px;
+}
+
+#register {
+    width: 100%;
+    display: none;
+}
+
+.manual {
+    margin: 20px 0px;
+}
+
+.disflex-spacebetween div button {
+    border-radius: 15px;
+    background-color: rgb(9, 6, 7);
+    padding: 3px 3px;
+    color: rgb(244, 234, 234);
+}
+
+#textName,
+#textName1 {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#add, #add2, #myUpdate, #myUpdate2, #clear, #clear2, #bnnn1, #bnnn2, #back {
+    border-radius: 15px;
+    background-color: rgb(9, 6, 7);
+    padding: 3px 3px;
+    color: rgb(244, 234, 234);
+}
+
+#search,
+#search1 {
+    padding: 0px;
+    margin: 0px;
+}
+
+#restore,
+#restore1 {
+    margin: 0px;
+    padding: 0px;
+    display: none;
+}
+
+.more {
+    padding: 2px 2px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}

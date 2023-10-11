@@ -1,0 +1,47 @@
+.manual {
+    padding: 8px;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(183, 179, 179) !important;
+}
+
+.tableDesign {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tableDesign td,
+.tableDesign th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.tableDesign tr:nth-child(even) {
+    background-color: #f2f2f2 !important;
+}
+
+.tableDesign tr {
+    background-color: rgb(167, 245, 245);
+}
+
+.tableDesign tr:hover {
+    background-color: rgb(67, 202, 157);
+}
+
+.tableDesign th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: rgb(71, 85, 99);
+    color: white;
+}
+
+.responsiveTab {
+    overflow-x: auto;
+}
+
+#SignUp,
+#login {
+    border-radius: 30px;
+}
